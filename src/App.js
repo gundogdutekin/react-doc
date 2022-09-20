@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-
-
+import Test from './Test';
+import styles from "./App.module.css";
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <h1>{process.env.REACT_APP_API_URL}</h1>
-     <img src="./logo192.png" alt="" />
-     <img src={logo} alt="" />
+    <Test/>
     </div>
+    
   );
 }
 
