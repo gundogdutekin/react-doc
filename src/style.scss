@@ -1,17 +1,34 @@
 $red:red;
 $yellow:yellow;
+$blue:blue;
+$color:white;
+$round:20%;
 $margin:10px;
 $pedding:20px;
 $center:center;
 $font:30px;
+$btnFont:1rem;
+$btnPedding:5px;
 
 .env{
     background: $red;
     margin-top: $margin;
-    padding: $pedding;
+    padding: $btnPedding;
     text-align:$center ;
-    font-size:$font;
-    span{
-        background: $yellow;
-    }
+    font-size:$btnFont;
+    color:$color;
+   
+}
+.btn{
+
+    background: $red;
+    margin: $margin;
+    padding: $btnPedding;
+    text-align:$center ;
+    font-size:$btnFont;
+    color:$color;
+}
+.btn-primary{
+    background: $blue;
+   
 }
