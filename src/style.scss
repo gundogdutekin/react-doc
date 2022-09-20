@@ -1,0 +1,17 @@
+$red:red;
+$yellow:yellow;
+$margin:10px;
+$pedding:20px;
+$center:center;
+$font:30px;
+
+.env{
+    background: $red;
+    margin-top: $margin;
+    padding: $pedding;
+    text-align:$center ;
+    font-size:$font;
+    span{
+        background: $yellow;
+    }
+}
